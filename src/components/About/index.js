@@ -24,19 +24,15 @@ const Herogrid = () => {
   return (
     <>
       <Box
-       className='heroGrid'
-  sx={{
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center', // Center vertically
-    minHeight: 'calc(100vh - 56px)', // Adjust the height based on your navbar height
-    padding: '20px',
-    backgroundImage: `url(${require('./images/test2.jpg')})`,
-    backgroundSize: 'contain', // Adjusted for smaller screens
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-  }}
-    
+      className='heroGrid'
+        sx={{
+          display: 'flex',
+          justifyContent: 'center',
+          padding: '20px',
+          backgroundImage: `url(${require('./images/test2.jpg')})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}  
       >
         <Grid container spacing={1} sx={{ maxWidth: '10000px', width: '100%', position: 'relative' }}>
           <Grid item xs={12} sm={12} md={12}>
