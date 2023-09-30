@@ -27,6 +27,7 @@ const Herogrid = () => {
           backgroundImage: `url(${require('./images/test2.jpg')})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
+          height: '300px'
         }}
 >
   <Grid
@@ -42,24 +43,30 @@ const Herogrid = () => {
           flexDirection: 'column',
           justifyContent: 'center',
           textAlign: 'left', // Align text to the left
-          color: 'blue',
+          color: 'black',
+          paddingTop: '50px'
         }}
       >
         <Typography variant="h4" sx={{ fontSize: '2.5rem' }}>
-          WHO WE ARE?.
+          WHO WE ARE?
         </Typography>
-        <Typography variant="h4" sx={{ fontSize: '1.5rem' }}>
+        <Typography variant="body" sx={{ fontSize: '1.5rem' }}>
           We are experts in Residential Care,
         </Typography>
-        <Typography variant="h4" sx={{ fontSize: '1.5rem' }}>
+        <Typography variant="body" sx={{ fontSize: '1.5rem' }}>
           Senior Living
         </Typography>
-        <Typography variant="h5" sx={{ fontSize: '1rem' }}>
+        <Typography variant="body" sx={{ fontSize: '1rem' }}>
           &
         </Typography>
-        <Typography variant="h4" sx={{ fontSize: '1.5rem' }}>
+        <Typography variant="body" sx={{ fontSize: '1.5rem' }}>
           Specialist Adult Care
         </Typography>
+        <Link className="link" to="contact">
+              <button className="btn btn-dark enquire" type="button">
+                Make an Enquiry
+              </button>
+            </Link>
       </Box>
     </Grid>
     <Grid item xs={12} sm={12} md={6}>

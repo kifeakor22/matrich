@@ -21,3 +21,7 @@
         /* Adjust the background size for smaller screens */
     }
 }
+
+button {
+    padding: 20px;
+}
