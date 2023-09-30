@@ -16,10 +16,10 @@ function App() {
         </Helmet>
        <Nav/>
       <Routes>
-        {/*<Route path="/" element={<Home/>} />
-        <Route path="/about" element={<Aboutus/>} />
+        <Route path="/" element={<Home/>} />
+        {/*<Route path="/about" element={<Aboutus/>} />
         <Route path="/booking" element={<BookingPage/>} />
-  <Route path='/contact' element={<Contact/>}></Route>*/}
+       <Route path='/contact' element={<Contact/>}>*/}
       </Routes>
     </Router>
     </div>

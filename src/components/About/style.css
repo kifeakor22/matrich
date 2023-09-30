@@ -1,0 +1,17 @@
+.link {
+    text-decoration: none;
+}
+
+#cta {
+    background-image: linear-gradient(to right, #2600ff, #ff8c00);
+    margin-top: 5px;
+}
+
+.heroGrid {
+    color: white;
+
+}
+
+.Divider {
+    padding: 30px;
+}
