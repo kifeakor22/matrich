@@ -1,13 +1,8 @@
 import React, {useEffect} from 'react';
-
 import Box from '@mui/material/Box';
-
 import Grid from '@mui/material/Grid';
 import { Typography } from '@mui/material';
-
 import './style.css'
-import Divider from '@mui/material/Divider';
-import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import 'aos/dist/aos.css'; // animation
 import AOS from 'aos';
@@ -24,37 +19,40 @@ const Herogrid = () => {
   return (
     <>
       <Box
-      className='heroGrid'
-        sx={{
-          display: 'flex',
-          justifyContent: 'center',
-          padding: '20px',
-          backgroundImage: `url(${require('./images/test2.jpg')})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}  
-      >
-        <Grid
+  className='heroGrid'
+  sx={{
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    minHeight: 'calc(100vh - 56px)', // Adjust the height based on your navbar height
+    padding: '20px',
+    backgroundImage: `url(${require('./images/test2.jpg')})`,
+    backgroundSize: 'contain',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+  }}
+>
+  <Grid
     container
     spacing={1}
     sx={{ maxWidth: '10000px', width: '100%', position: 'relative' }}
   >
-    <Grid item xs={12} sm={12} md={12}>
+    <Grid item xs={12} sm={12} md={6}>
       <Box
         data-aos="fade-left"
         sx={{
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',
-          textAlign: 'center',
+          textAlign: 'left', // Align text to the left
           color: 'blue',
         }}
       >
-        <Typography variant="h4" sx={{ fontSize: '1.5rem' }}>
-          Supported Living.
+        <Typography variant="h4" sx={{ fontSize: '2.5rem' }}>
+          WHO WE ARE?.
         </Typography>
         <Typography variant="h4" sx={{ fontSize: '1.5rem' }}>
-          Residential Care,
+          We are experts in Residential Care,
         </Typography>
         <Typography variant="h4" sx={{ fontSize: '1.5rem' }}>
           Senior Living
@@ -67,16 +65,11 @@ const Herogrid = () => {
         </Typography>
       </Box>
     </Grid>
+    <Grid item xs={12} sm={12} md={6}>
+      {/* Other content on the right side of the box */}
+    </Grid>
   </Grid>
-        
-      </Box>
-      <div>
-        <Divider sx={{ color: 'black' }} className='Divider' textAlign="center">
-          <Link className='link' to="booking">
-            <Button id='cta' variant="contained" size="large" style={{ backgroundColor: 'black' }}>BOOK NOW</Button>
-          </Link>
-        </Divider>
-      </div>
+</Box>
     </>
   );
 };
