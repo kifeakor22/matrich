@@ -32,9 +32,11 @@ const Herogrid = () => {
     minHeight: 'calc(100vh - 56px)', // Adjust the height based on your navbar height
     padding: '20px',
     backgroundImage: `url(${require('./images/try.jpg')})`,
-    backgroundSize: 'cover', // Change this to 'auto' or '100% auto'
+    backgroundSize: 'cover', // Adjusts the image to cover the container while maintaining aspect ratio
     backgroundPosition: 'center',
   }}
+>
+
     
       >
         <Grid container spacing={1} sx={{ maxWidth: '10000px', width: '100%', position: 'relative' }}>
