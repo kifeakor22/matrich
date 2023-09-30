@@ -15,3 +15,9 @@
 .Divider {
     padding: 30px;
 }
+@media (max-width: 767px) {
+    .heroGrid {
+        background-size: contain;
+        /* Adjust the background size for smaller screens */
+    }
+}
