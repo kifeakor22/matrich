@@ -24,36 +24,37 @@ const Herogrid = () => {
   return (
     <>
       <Box
-        className='heroGrid'
+       className='heroGrid'
   sx={{
     display: 'flex',
     justifyContent: 'center',
-    alignItems: 'flex-end',
-    minHeight: 'calc(100vh - 56px)',
+    alignItems: 'center', // Center vertically
+    minHeight: 'calc(100vh - 56px)', // Adjust the height based on your navbar height
     padding: '20px',
-    backgroundImage: `url(${require('./images/try.jpg')})`,
-    backgroundSize: 'cover', // Change this to 'contain' or remove it
-    backgroundPosition: 'center top', // Add 'top' to align the image to the top
+    backgroundImage: `url(${require('./images/test2.jpg')})`,
+    backgroundSize: 'contain', // Adjusted for smaller screens
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
   }}
     
       >
         <Grid container spacing={1} sx={{ maxWidth: '10000px', width: '100%', position: 'relative' }}>
           <Grid item xs={12} sm={12} md={12}>
-            <Box data-aos="fade-left" sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center' }}>
+            <Box data-aos="fade-left" sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center', color: 'blue' }}>
               <Typography variant="h4">
-                Empowering Your Digital World.
+                Supported Living.
               </Typography>
               <Typography variant='h4'>
-                Cyber Security,
+                Residentail Care,
               </Typography>
               <Typography variant='h4'>
-                Cloud Solutions
+                Senior Living
               </Typography>
               <Typography variant='h5'>
                 &
               </Typography>
               <Typography variant='h4'>
-                IT Support.
+                Specialist Adult Care
               </Typography>
             </Box>
           </Grid>
