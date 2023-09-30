@@ -34,27 +34,41 @@ const Herogrid = () => {
           backgroundPosition: 'center',
         }}  
       >
-        <Grid container spacing={1} sx={{ maxWidth: '10000px', width: '100%', position: 'relative' }}>
-          <Grid item xs={12} sm={12} md={12}>
-            <Box data-aos="fade-left" sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center', color: 'blue' }}>
-              <Typography variant="h4">
-                Supported Living.
-              </Typography>
-              <Typography variant='h4'>
-                Residentail Care,
-              </Typography>
-              <Typography variant='h4'>
-                Senior Living
-              </Typography>
-              <Typography variant='h5'>
-                &
-              </Typography>
-              <Typography variant='h4'>
-                Specialist Adult Care
-              </Typography>
-            </Box>
-          </Grid>
-        </Grid>
+        <Grid
+    container
+    spacing={1}
+    sx={{ maxWidth: '10000px', width: '100%', position: 'relative' }}
+  >
+    <Grid item xs={12} sm={12} md={12}>
+      <Box
+        data-aos="fade-left"
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          textAlign: 'center',
+          color: 'blue',
+        }}
+      >
+        <Typography variant="h4" sx={{ fontSize: '1.5rem' }}>
+          Supported Living.
+        </Typography>
+        <Typography variant="h4" sx={{ fontSize: '1.5rem' }}>
+          Residential Care,
+        </Typography>
+        <Typography variant="h4" sx={{ fontSize: '1.5rem' }}>
+          Senior Living
+        </Typography>
+        <Typography variant="h5" sx={{ fontSize: '1rem' }}>
+          &
+        </Typography>
+        <Typography variant="h4" sx={{ fontSize: '1.5rem' }}>
+          Specialist Adult Care
+        </Typography>
+      </Box>
+    </Grid>
+  </Grid>
+        
       </Box>
       <div>
         <Divider sx={{ color: 'black' }} className='Divider' textAlign="center">
