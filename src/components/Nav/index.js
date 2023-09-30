@@ -15,8 +15,8 @@ const Nav = () => {
           <button
             className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse" // Use 'data-bs-toggle' for Bootstrap 5
-            data-bs-target="#navbarTogglerDemo03"
+            data-toggle="collapse" // Use 'data-bs-toggle' for Bootstrap 5
+            data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03"
             aria-expanded="false"
             aria-label="Toggle navigation"
