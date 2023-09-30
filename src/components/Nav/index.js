@@ -1,38 +1,61 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.css';
-import './style.css'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Updated import path
+import './style.css';
 import { Link } from 'react-router-dom';
-import logo from './images/logo.jpg'
-
+import logo from './images/logo.jpg';
 
 const Nav = () => {
-
-
-    return(
-        <>
-        <div className='container-fluid'>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex">
-            <a className="navbar-brand" href="/">Matrich</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+  return (
+    <>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container-fluid"> {/* Wrap the navbar content in a container */}
+          <a className="navbar-brand" href="/">
+            Matrich
+          </a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse" // Use 'data-bs-toggle' for Bootstrap 5
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <div className="navbar-nav ml-auto">
-            <a className="nav-link" href="#">About Us</a>
-            <a className="nav-link" href="#">Supported Living</a>
-          <a className="nav-link" href="#">Specalist Adult Care</a>
-          <a className="nav-link" href="#">Senior Living</a>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul className="navbar-nav ms-auto"> {/* Use 'ul' for list of links */}
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  About Us
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Supported Living
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Specialist Adult Care
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Senior Living
+                </a>
+              </li>
+            </ul>
+            <Link className="link" to="contact">
+              <button className="btn btn-dark enquire" type="button">
+                Make an Enquiry
+              </button>
+            </Link>
+          </div>
         </div>
-        <Link className='link' to='contact'>
-         <button className='nav-item ml-auto btn btn-dark enquire' type='button' >Make  an Enquiry</button>
-         </Link>
-      </div>
-     
-    </nav>
-    </div>
-  </>
-    )
-     
-}
+      </nav>
+    </>
+  );
+};
 
-export default Nav
+export default Nav;
