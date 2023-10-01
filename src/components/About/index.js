@@ -63,7 +63,7 @@ const Herogrid = () => {
                 fontFamily: 'roboto'
               }}
             >
-              <Typography variant="h5" sx={{ fontSize: '2.5rem' }}>
+              <Typography className='h5h' variant="h5" sx={{ fontSize: '2.5rem' }}>
                 WHO WE ARE?
               </Typography>
               <Typography variant="body" sx={{ fontSize: '1.5rem', textAlign: 'left' }}>

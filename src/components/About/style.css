@@ -31,4 +31,7 @@
              font-family: Roboto, sans-serif;
              /* Change this to your preferred small font size */
          }
+         .h5h {
+            font-weight: 700;
+         }
 }
