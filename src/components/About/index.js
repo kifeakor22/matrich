@@ -44,7 +44,8 @@ const Herogrid = () => {
           justifyContent: 'center',
           textAlign: 'left', // Align text to the left
           color: 'black',
-          paddingTop: '40px'
+          paddingTop: '40px',
+          fontFamily: 'Roboto, sans-serif'
         }}
       >
         <Typography variant="h5" sx={{ fontSize: '2.5rem' }}>

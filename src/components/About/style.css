@@ -27,6 +27,8 @@
          .MuiTypography-root {
              /* Adjust the font size for small screens */
              font-size: 1rem !important;
+             font-weight: 700;
+             font-family: Roboto,sans-serif;
              /* Change this to your preferred small font size */
          }
 }
