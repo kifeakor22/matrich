@@ -60,7 +60,7 @@ const Herogrid = () => {
                 zIndex: 1, // Ensure text appears above the overlay
                 padding: '20px',
                 fontWeight: '700',
-                fontFamily: 'fantasy'
+                fontFamily: 'roboto'
               }}
             >
               <Typography variant="h5" sx={{ fontSize: '2.5rem' }}>
