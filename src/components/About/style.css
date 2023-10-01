@@ -15,6 +15,9 @@
 .Divider {
     padding: 30px;
 }
+.buttonWithPadding {
+    margin-top: 7px;
+}
 @media (max-width: 767px) {
     .heroGrid {
         background-size: cover !important;
@@ -26,9 +29,4 @@
              font-size: 1rem !important;
              /* Change this to your preferred small font size */
          }
-}
-
-
-button {
-    padding: 20px;
 }

@@ -62,11 +62,12 @@ const Herogrid = () => {
         <Typography variant="body" sx={{ fontSize: '1.5rem' }}>
           Specialist Adult Care
         </Typography>
-        <Link className="link" to="contact">
-              <button className="btn btn-dark enquire" type="button">
-                Make an Enquiry
-              </button>
-            </Link>
+       <Link className="link" to="contact">
+  <button className="btn btn-dark enquire buttonWithPadding" type="button">
+    Make an Enquiry
+  </button>
+</Link>
+
       </Box>
     </Grid>
     <Grid item xs={12} sm={12} md={6}>
