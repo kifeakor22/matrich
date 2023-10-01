@@ -17,7 +17,7 @@
 }
 @media (max-width: 767px) {
     .heroGrid {
-        background-size: contain;
+        background-size: cover;
         /* Adjust the background size for smaller screens */
     }
 }
