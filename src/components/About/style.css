@@ -17,11 +17,17 @@
 }
 @media (max-width: 767px) {
     .heroGrid {
-        background-size: cover;
-        font-size: smaller;
+        background-size: cover !important;
+        padding: auto;
         /* Adjust the background size for smaller screens */
     }
+         .MuiTypography-root {
+             /* Adjust the font size for small screens */
+             font-size: 1rem !important;
+             /* Change this to your preferred small font size */
+         }
 }
+
 
 button {
     padding: 20px;

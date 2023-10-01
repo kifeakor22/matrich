@@ -47,7 +47,7 @@ const Herogrid = () => {
           paddingTop: '40px'
         }}
       >
-        <Typography variant="h4" sx={{ fontSize: '2.5rem' }}>
+        <Typography variant="h5" sx={{ fontSize: '2.5rem' }}>
           WHO WE ARE?
         </Typography>
         <Typography variant="body" sx={{ fontSize: '1.5rem' }}>
