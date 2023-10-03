@@ -60,3 +60,37 @@
     height: auto;
     /* Automatically adjust the height */
 }
+/* Existing CSS styles */
+
+/* Add a media query for mobile phones */
+@media (max-width: 767px) {
+    /* Style for smaller screens (e.g., mobile phones) */
+
+    /* Reset the grid layout to a single column */
+    .grid-container {
+        grid-template-columns: 1fr;
+        /* Single column layout */
+    }
+
+    /* Adjust the contact info section (left side) */
+    .contact-info {
+        padding: 20px;
+        /* Increase padding for better spacing */
+    }
+
+    /* Adjust the contact image section (right side) */
+    .contact-image {
+        order: -1;
+        /* Change the order to move the image above the contact form */
+        text-align: center;
+        /* Center-align the image */
+    }
+
+    /* Adjust the image size if needed */
+    .contact-image img {
+        max-width: 100%;
+        /* Set the maximum width to fit the container */
+        height: auto;
+        /* Automatically adjust the height */
+    }
+}
