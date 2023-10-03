@@ -88,7 +88,7 @@
 
     /* Adjust the image size if needed */
     .contact-image img {
-        max-width: 100%;
+        max-width: 40%;
         /* Set the maximum width to fit the container */
         height: auto;
         /* Automatically adjust the height */
