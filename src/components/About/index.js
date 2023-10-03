@@ -28,7 +28,7 @@ const Herogrid = () => {
           backgroundImage: `url(${require('./images/test2.jpg')})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          height: '300px',
+          height: 'auto',
           position: 'relative' // Add this line to create a stacking context
         }}
       >
