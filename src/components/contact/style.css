@@ -80,6 +80,7 @@
 
     /* Adjust the contact image section (right side) */
     .contact-image {
+        display: none;
         order: -1;
         /* Change the order to move the image above the contact form */
         text-align: center;
@@ -88,9 +89,12 @@
 
     /* Adjust the image size if needed */
     .contact-image img {
-        max-width: 40%;
+
+        max-width: 100%;
+
+    
         /* Set the maximum width to fit the container */
-        height: auto;
+        height: 200px;
         /* Automatically adjust the height */
     }
 }
