@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './pages/Home';
 // import Aboutus from './components/about/Aboutus';
 // import BookingPage from './components/BookingPage';
-// import Contact from './components/contact';
+import Contact from './components/contact';
 import Nav from './components/Nav';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import {Helmet} from "react-helmet";
@@ -18,8 +18,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         {/*<Route path="/about" element={<Aboutus/>} />
-        <Route path="/booking" element={<BookingPage/>} />
-       <Route path='/contact' element={<Contact/>}>*/}
+        <Route path="/booking" element={<BookingPage/>} >*/}
+       <Route path='/contact' element={<Contact/>}/>
       </Routes>
     </Router>
     </div>
