@@ -43,7 +43,7 @@ const ServiceCards = () => {
         <div
           key={service.id}
           className="service-card"
-          style={{ backgroundColor: service.color }} data-aos="fade-right"
+          style={{ backgroundColor: service.color }} data-aos="fade-up"
         >
           <h3 className="service-title">{service.title}</h3>
           <p className="service-description">{service.description}</p>
