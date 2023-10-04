@@ -15,7 +15,7 @@ const ServiceCards = () => {
       id: 2,
       title: 'Specialist Adult Care',
       description: 'Experience individualized care that empowers and supports adults with unique needs. Our dedicated team is committed to enhancing the quality of life for every individual we serve. Choose Specialist Adult Care with us today.',
-      color: '#33FF77', // Background color for Service 2
+      color: 'green', // Background color for Service 2
     },
     {
       id: 3,
