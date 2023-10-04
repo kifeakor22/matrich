@@ -1,6 +1,8 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './ServiceCards.css'; // Import your CSS for styling
 import { Link } from 'react-router-dom';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 const ServiceCards = () => {
   // Data for the service cards
@@ -30,14 +32,18 @@ const ServiceCards = () => {
       color: '#FF33DD', // Background color for Service 4
     },
   ];
-
+   useEffect(()=>{
+    AOS.init({
+      duration: 2000
+    })
+   },[])
   return (
     <div className="service-cards-container">
       {services.map((service) => (
         <div
           key={service.id}
           className="service-card"
-          style={{ backgroundColor: service.color }}
+          style={{ backgroundColor: service.color }} data-aos="fade-right"
         >
           <h3 className="service-title">{service.title}</h3>
           <p className="service-description">{service.description}</p>
