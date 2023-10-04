@@ -67,9 +67,9 @@ const Herogrid = () => {
                 WHO WE ARE?
               </Typography>
               <Typography variant="body" sx={{ fontSize: '1.5rem', textAlign: 'left' }}>
-                Matrich is your trusted partner in Supported Independent Living (SIL) care.
-                Our mission is to empower individuals to lead fulfilling lives while providing essential support.
-                Join us in celebrating independence and discover the Matrich difference today.
+                Matrich is your trusted partner in Supported Independent Living for adults with learning disabilities/difficulties.
+                Our mission is to empower individuals to lead fulfilling lives in their community while providing essential support.
+                Join us in celebrating independence and discover Matrich your home away from home.
               </Typography>
 
               <Link className="link" to="contact">
