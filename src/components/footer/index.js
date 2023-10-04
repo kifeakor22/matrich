@@ -24,6 +24,7 @@ const Footer = () => {
             <li><a href="#"><i className="fab fa-twitter"></i></a></li>
             <li><a href="#"><i className="fab fa-instagram"></i></a></li>
           </ul>
+          <a href='#'>Tel:+447878474981</a>
         </div>
       </div>
       <div className="footer-bottom">
