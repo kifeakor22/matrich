@@ -1,8 +1,9 @@
 /* Footer Container */
 .footer-container {
-    background-color: #333;
+    background-color: #220e96;
     color: #fff;
     padding: 20px 0;
+    border-top: solid 7px orangered;
 }
 
 /* Footer Content */
