@@ -7,6 +7,9 @@
     line-height: 1.5;
     padding: 5px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    z-index: 1000;
+        /* Higher z-index to ensure it's above the TopHeader */
+    margin-top: 40px;
 }
 
 .navbar-brand {

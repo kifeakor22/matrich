@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from './pages/Home';
+import TopHeader from './components/topheader';
 // import Aboutus from './components/about/Aboutus';
 // import BookingPage from './components/BookingPage';
 import Contact from './components/contact';
@@ -14,6 +15,7 @@ function App() {
         <Helmet>
           <title>Matrich</title>
         </Helmet>
+        <TopHeader/>
        <Nav/>
       <Routes>
         <Route path="/" element={<Home/>} />
