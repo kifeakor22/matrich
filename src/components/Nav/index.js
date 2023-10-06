@@ -26,9 +26,11 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul className="navbar-nav ms-auto"> {/* Use 'ul' for list of links */}
               <li className="nav-item">
+                <Link className="link" to="about">
                 <a className="nav-link" href="#">
                   About Us
                 </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">

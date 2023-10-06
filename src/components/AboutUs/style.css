@@ -1,0 +1,79 @@
+/* Style for the About Us container */
+.about-us-container {
+    padding: 40px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: flex-start;
+    /* Align items to the top */
+}
+
+/* Style for the About Us content */
+.about-us-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    flex: 1;
+}
+
+/* Style for the About Us image */
+.about-us-image {
+    padding: 10px;
+    border-right: 3px solid #2f11d8;
+    /* Thick border-right line */
+    display: flex;
+    align-items: flex-start;
+    /* Align items to the top */
+    justify-content: flex-start;
+    /* Align content to the top */
+}
+
+/* Style for the image within the About Us image container */
+.about-us-image img {
+    max-width: 100%;
+    max-height: 300px;
+    /* Adjust the maximum height as needed */
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for headings and text in the About Us content */
+.about-us-content h4 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.about-us-content p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Add responsive styles for smaller screens */
+@media (max-width: 767px) {
+    .about-us-container {
+        flex-direction: column;
+    }
+
+    .about-us-content,
+    .about-us-image {
+        width: 100%;
+        border-right: none;
+        /* Remove the border-right for smaller screens */
+        padding: 15px;
+    }
+
+    .about-us-image img {
+        max-height: 200px;
+        /* Adjust the maximum height for smaller screens */
+    }
+
+    .about-us-content h4 {
+        font-size: 1.5rem;
+    }
+
+    .about-us-content p {
+        font-size: 1rem;
+    }
+}

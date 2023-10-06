@@ -50,6 +50,7 @@
     color: #333;
 }
 /* Media Query for Mobile Devices */
+
 @media (max-width: 768px) {
     .service-cards-container {
         flex-direction: column;
