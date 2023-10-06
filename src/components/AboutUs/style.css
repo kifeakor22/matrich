@@ -61,11 +61,11 @@
         width: 100%;
         border-right: none;
         /* Remove the border-right for smaller screens */
-        padding: 15px;
+        padding: 5px;
     }
 
     .about-us-image img {
-        max-height: 200px;
+        max-height: 300px;
         /* Adjust the maximum height for smaller screens */
     }
 
