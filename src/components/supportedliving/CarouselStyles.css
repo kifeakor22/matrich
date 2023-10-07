@@ -1,0 +1,34 @@
+/* Carousel container styles */
+.carousel-container {
+    max-width: 800px;
+    /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/* Individual slide styles */
+.carousel-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Image styles */
+.carousel-image {
+    max-width: 100%;
+    /* Ensure images are responsive */
+    max-height: auto;
+    /* Remove max-height to display the full image */
+    object-fit: contain;
+    /* Display the whole image within the box */
+    border: 2px solid #fff;
+    /* Add a border for better visibility */
+    border-radius: 8px;
+}
+
+/* Description styles */
+.carousel-description {
+    margin-top: 10px;
+    color: #fff;
+}

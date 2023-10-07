@@ -8,6 +8,9 @@ import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import 'aos/dist/aos.css'; // animation
 import AOS from 'aos';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import carousel styles
+import { Carousel } from 'react-responsive-carousel'; // Import Carousel component
+
 
 const Herogrid = () => {
   // animation initialize
@@ -32,6 +35,7 @@ const Herogrid = () => {
           position: 'relative' // Add this line to create a stacking context
         }}
       >
+        
         {/* Add an overlay with a background color */}
         <div
           style={{

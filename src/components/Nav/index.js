@@ -33,9 +33,11 @@ const Nav = () => {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link className="link" to="support">
                 <a className="nav-link" href="#">
                   Supported Living
                 </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
