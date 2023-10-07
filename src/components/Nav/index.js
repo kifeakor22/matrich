@@ -61,7 +61,7 @@ const Nav = () => {
             </li>
           </ul>
           <Link className="link" to="contact">
-            <button className="btn btn-dark enquire" type="button">
+            <button className="btn btn-dark enquire"  type="button" onClick={closeNavbar}>
               Make an Enquiry
             </button>
           </Link>
