@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Typography, Paper, Grid } from '@mui/material';
 import { LocalHospital, Accessibility, House, AttachMoney } from '@mui/icons-material';
 import './style.css';
 import './CarouselStyles.css'; // Import the custom CSS for carousel
 import { Carousel } from 'react-responsive-carousel'; // Import Carousel component
 import {Divider} from '@mui/material';
+import AOS from 'aos';
 
 const features = [
   {
@@ -49,6 +50,11 @@ const slides = [
 ];
 
 const SupportedLiving = () => {
+     useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <div className="supported-living">
          <div className="carousel-container">
@@ -78,7 +84,7 @@ const SupportedLiving = () => {
         Supported Living Services
       </Typography>
       </Divider>
-      <Grid container spacing={3}>
+      <Grid container spacing={3} data-aos="fade-left">
         {features.map((feature, index) => (
           <Grid item xs={12} sm={6} md={3} key={index}>
             <Paper elevation={3} className="feature-card">
