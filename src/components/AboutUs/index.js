@@ -23,7 +23,7 @@ const AboutUs = () => {
         </Grid>
         <Grid item xs={12} md={6}>
           <Box className="about-us-content">
-           <Divider className='Divider' textAlign="left">
+           <Divider className='Divider' textAlign="centre">
             <Typography variant="h4" gutterBottom>
               Welcome to Matrich
             </Typography>
