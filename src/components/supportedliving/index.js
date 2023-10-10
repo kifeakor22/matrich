@@ -32,19 +32,19 @@ const features = [
 
 const slides = [
   {
-    image: require('./images/slide1.jpg'), // Use require here
+    image: require('./images/about.jpeg'), // Use require here
     description: 'Our supportive community promotes a healthy lifestyle.',
   },
   {
-    image: require('./images/slides2.jpg'), // Use require here
+    image: require('./images/imag2.jpeg'), // Use require here
     description: 'Accessible facilities to ensure convenience for residents.',
   },
   {
-    image: require('./images/slide3.jpg'), // Use require here
+    image: require('./images/photo.avif'), // Use require here
     description: 'Comfortable and secure homes for all our residents.',
   },
   {
-    image: require('./images/slide4.jpg'), // Use require here
+    image: require('./images/jumbo1.jpeg'), // Use require here
     description: 'Affordable pricing options tailored to your needs.',
   },
 ];
