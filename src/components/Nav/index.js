@@ -50,9 +50,11 @@ const Nav = () => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="link" to="adultcare" onClick={closeNavbar}> {/* Close Navbar on click */}
               <a className="nav-link" href="#">
                 Specialist Adult Care
               </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">

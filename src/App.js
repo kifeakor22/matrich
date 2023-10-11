@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Footer from './components/footer';
 import SupportedLiving from './components/supportedliving';
+import SpecialistAdultCare from './components/adultcare';
 import './App.css'; // Import your custom CSS for styling
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path="/about" element={<AboutUs />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/support' element={<SupportedLiving/>}/>
+            <Route path='/adultcare' element={<SpecialistAdultCare/>}/>
           </Routes>
         </div>
         <Footer />

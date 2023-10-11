@@ -1,0 +1,153 @@
+/* SpecialistAdultCare.css */
+
+/* Styles for the Specialist Adult Care section */
+.specialist-adult-care {
+    padding: 40px 0;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.specialist-adult-care h4 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* Styles for the feature cards */
+.care-feature-card {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    border-bottom: 5px solid #3f51b5;
+}
+
+.care-feature-card:hover {
+    transform: scale(1.05);
+}
+
+.care-feature-card svg {
+    color: #3f51b5;
+    font-size: 3rem;
+}
+
+.care-feature-card h6 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.care-feature-card p {
+    color: #666;
+}
+
+/* Styles for the carousel container */
+.carousel-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.carousel-container h5 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Styles for the carousel */
+.carousel {
+    background-color: transparent;
+}
+
+.carousel .carousel-root {
+    margin: 0;
+}
+
+.carousel .carousel-slider {
+    position: relative;
+}
+
+.carousel .carousel-slider .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .carousel-slider .carousel-item img {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
+/* Styles for carousel dots (pagination) */
+.carousel .carousel-dots {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.carousel .carousel-dots .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #3f51b5;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel .carousel-dots .dot.selected {
+    background-color: #333;
+}
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+    .care-feature-card {
+        padding: 15px;
+    }
+
+    .carousel-container {
+        padding: 20px 0;
+    }
+
+    .carousel-container h5 {
+        font-size: 1.5rem;
+    }
+
+    .carousel .carousel-slider .carousel-item img {
+        max-height: 250px;
+    }
+
+    .carousel .carousel-dots {
+        margin-top: 10px;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 464px) {
+    .care-feature-card {
+        padding: 10px;
+    }
+
+    .carousel-container {
+        padding: 10px 0;
+    }
+
+    .carousel-container h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel .carousel-slider .carousel-item img {
+        max-height: 200px;
+    }
+
+    .carousel .carousel-dots {
+        margin-top: 5px;
+    }
+}
