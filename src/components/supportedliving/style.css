@@ -2,7 +2,7 @@
 
 /* Container for the Supported Living component */
 .supported-living {
-    padding: 20px 20px;
+    padding: 10px 10px;
 }
 
 /* Heading for Supported Living Services */
@@ -23,7 +23,21 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.2s;
-    border-bottom:5px solid #007bff;
+    
+        /* Set a transparent border on all sides except the bottom */
+        border: 3px solid transparent;
+        border-bottom: none;
+        position: relative;
+}
+.feature-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    /* Adjust the height of the bottom border as needed */
+    background-image: linear-gradient(to right, #2600ff, #ff8c00);
 }
 
 .feature-card:hover {

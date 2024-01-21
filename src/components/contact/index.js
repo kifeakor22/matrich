@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { MapContainer, TileLayer } from 'react-leaflet';
 import { Typography } from '@mui/material';
 import './style.css';
 import { Button } from '@mui/material';
@@ -7,9 +8,9 @@ import { Divider } from '@mui/material';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
-const EMAILJS_SERVICE_ID = "service_2lyhxfb";
-const EMAILJS_TEMPLATE_ID = "template_95xjrxn";
-const EMAILJS_USER_ID = "jemLsqsOmUA2njnd9";
+const EMAILJS_SERVICE_ID = "service_xtrftuc";
+const EMAILJS_TEMPLATE_ID = "template_ko8k7nr";
+const EMAILJS_USER_ID = "clroOLziZgto7U7IL";
 
 const Contact = () => {
   useEffect(() => {
@@ -48,7 +49,12 @@ const Contact = () => {
       <div className='container contact'>
         <div className='grid-container' data-aos="fade-down">
           <div className='contact-image' data-aos="fade-up">
-            <img src={require('./images/logo.jpg')} alt='Contact Image' />
+            <div className='contact-map'>
+            {/* OpenStreetMap */}
+              <img src={require('./images/map.PNG')} alt='Contact Image'
+              style={{ width: '100%', height: '400px' }} />
+           
+          </div>
           </div>
           <div className='contact-info'>
             <Typography variant='h4' sx={{ textAlign: 'center', color: 'Blue' }}> Get in touch</Typography>

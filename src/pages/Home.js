@@ -7,13 +7,12 @@ import SupportedLiving from '../components/supportedliving';
 import SpecialistAdultCare from '../components/adultcare';
 import Footer from '../components/footer';
 import AboutUs from '../components/AboutUs';
-
 const Home = () => {
   return (
     <div>
       <Herogrid/>
       <ServiceCards/>
-      <SupportedLiving/>
+      <SpecialistAdultCare/>
       <Contact/>
     </div>
   );

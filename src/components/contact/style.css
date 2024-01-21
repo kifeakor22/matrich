@@ -2,8 +2,32 @@
     padding: 20px;
 
 }
+/* Add any other styles as needed */
+/* style.css */
 
+.container {
+    position: relative;
+}
 
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-map {
+    width: 100%;
+    position: relative;
+}
+
+.contact-map .leaflet-container {
+    height: 100%;
+}
+
+/* Add any other styles as needed */
 #response {
     padding: 25px;
     color: green;

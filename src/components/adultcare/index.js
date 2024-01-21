@@ -116,7 +116,7 @@ const SpecialistAdultCare = () => {
               partialVisibilityGutter: 30,
             },
           }}
-          showDots={true}
+          showDots={false}
           sliderClass=""
           slidesToSlide={1}
           swipeable

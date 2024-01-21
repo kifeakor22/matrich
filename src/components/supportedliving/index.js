@@ -79,9 +79,9 @@ const SupportedLiving = () => {
           ))}
         </Carousel>
       </div>
-        <Divider className='Divider' textAlign="center">
+        <Divider className='Divider' textAlign="left">
       <Typography variant="h4" sx={{ marginBottom: 4 }}>
-        Supported Living Services.
+        Supported Living Services
       </Typography>
       </Divider>
       <Grid container spacing={3} data-aos="fade-left">
