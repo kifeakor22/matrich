@@ -45,7 +45,7 @@ const Nav = () => {
             <li className="nav-item">
               <Link className="link" to="support" onClick={closeNavbar}> {/* Close Navbar on click */}
                 <a className="nav-link" href="#">
-                  Supported Living
+                  Domiciliary Care
                 </a>
               </Link>
             </li>

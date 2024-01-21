@@ -71,7 +71,7 @@ const Herogrid = () => {
                 WHO WE ARE?
               </Typography>
               <Typography variant="body" sx={{ fontSize: '1.5rem', textAlign: 'left' }}>
-                Matrich is your trusted partner in Supported Independent Living for adults with learning disabilities/difficulties.
+                Matrich is your trusted partner in Domiciliary Care for adults with learning disabilities/difficulties.
                 Our mission is to empower individuals to lead fulfilling lives in their community while providing essential support.
                 Join us in celebrating independence and discover Matrich your home away from home.
               </Typography>

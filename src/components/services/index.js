@@ -9,7 +9,7 @@ const ServiceCards = () => {
   const services = [
     {
       id: 1,
-      title: 'Supported Living',
+      title: 'Domiciliary Care ',
       description: 'Our services are tailored to empower individuals with diverse support needs to maintain their independence within the comfort of their own homes..',
       color: '#FF5733', // Background color for Service 1
     },

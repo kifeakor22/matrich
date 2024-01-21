@@ -81,7 +81,7 @@ const SupportedLiving = () => {
       </div>
         <Divider className='Divider' textAlign="left">
       <Typography variant="h4" sx={{ marginBottom: 4 }}>
-        Supported Living Services
+        Domiciliary Services
       </Typography>
       </Divider>
       <Grid container spacing={3} data-aos="fade-left">
