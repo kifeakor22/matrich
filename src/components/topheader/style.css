@@ -24,6 +24,9 @@
 .top-header.hidden {
     transform: translateY(-100%);
 }
+.top-header a {
+    color: black;
+}
 /* Style for the Navbar (adjust the class name to match your actual Navbar) */
 
 

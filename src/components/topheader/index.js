@@ -21,7 +21,7 @@ const TopHeader = () => {
 
   return (
     <div className={`top-header ${isVisible ? '' : 'hidden'}`}>
-      Talk to us today: +447878474981
+      Talk to us today: <a href="tel:+447878474981">+447878474981</a>
     </div>
   );
 };
