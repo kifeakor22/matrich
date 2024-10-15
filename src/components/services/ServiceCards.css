@@ -1,7 +1,7 @@
 /* Service Cards Container */
 .service-cards-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 20px auto;
     max-width: 1000px;
     padding: 20px;
@@ -9,7 +9,7 @@
 
 /* Service Card */
 .service-card {
-    flex: 1;
+    flex: 1;       
     margin: 10px;
     padding: 20px;
     border-radius: 8px;
@@ -20,6 +20,7 @@
     /* Set a minimum width to create rectangular shapes */
     max-width: 100%;
     /* Allow cards to stretch */
+    
 }
 
 /* Service Title */

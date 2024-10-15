@@ -3,15 +3,17 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Herogrid from '../components/About';
 import ServiceCards from '../components/services';
 import Contact from '../components/contact';
-import SupportedLiving from '../components/supportedliving';
 import SpecialistAdultCare from '../components/adultcare';
-import Footer from '../components/footer';
-import AboutUs from '../components/AboutUs';
+
+
 const Home = () => {
   return (
     <div>
       <Herogrid/>
-      <ServiceCards/>
+      {/* Add the parent-container class here to wrap ServiceCards */}
+      <div className="parent-container">
+        <ServiceCards />
+      </div>
       <SpecialistAdultCare/>
       <Contact/>
     </div>

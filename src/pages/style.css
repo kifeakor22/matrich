@@ -1,0 +1,8 @@
+.parent-container {
+    display: center!important;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;     /* Center content vertically (optional) */
+    flex-wrap: wrap;         /* Allow wrapping of cards */
+    width: 100%;             /* Ensure the container takes full width */
+    margin: 0 auto;          /* Center the container itself, if needed */
+}
